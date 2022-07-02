@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="readvicedb@localhost" uuid="79432941-a6f5-4741-95e3-05b01a869615">
+    <data-source source="LOCAL" name="readvicedb@localhost" uuid="ca9a01fd-b48a-45ea-848e-b2cf65a02014">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>

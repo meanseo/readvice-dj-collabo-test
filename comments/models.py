@@ -1,8 +1,6 @@
-from django.db import models
-
 from books.models import Book
 from users.models import User
-
+from django.db import models
 
 class Comment(models.Model):
     use_in_migrations = True
