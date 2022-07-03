@@ -25,7 +25,7 @@ def users(request):
             if serializer.is_valid():
                 serializer.save()
                 print('3. 들어온 내부값:', serializer)
-                return Response(serializer.data, status=status.HTTP_201_CREATED)
+                return Response(serializer.data, status=200)
         elif request.method == 'PUT':
             return JsonResponse({'users': 'fail'})
         elif request.method == 'DELETE':
