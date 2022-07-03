@@ -19,6 +19,6 @@ from admin.views import hello_api
 
 urlpatterns = [
     path('', hello_api),
-    path('api/users', include('users.url')),
+    path('users/', include('users.urls')),
     # path('admin/', admin.site.urls),
 ]

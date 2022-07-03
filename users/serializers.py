@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import User as user
 
 
-class UserSerializer(serializers.Serializer):
+class UserSerializer(serializers.ModelSerializer):
     email = serializers.CharField()
     password = serializers.CharField()
     username = serializers.CharField()
@@ -18,3 +18,4 @@ class UserSerializer(serializers.Serializer):
 
     def update(self, instance, validated_data):
         user.objects.filter(pk=instance.id).update(**validated_data)
+        return instance
