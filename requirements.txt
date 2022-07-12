@@ -41,5 +41,8 @@ Werkzeug==1.0.1
 wincertstore==0.2
 pytorch==1.10.0
 torch
+
 mysqlclient
 djangorestframework
+corsheaders
+markdown
