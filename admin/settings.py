@@ -99,7 +99,7 @@ DATABASES = {
         'NAME': 'readvice',
         'USER': 'readvice',
         'PASSWORD': 'readvice',
-        'HOST': 'readvice.cv21xkw7olky.ap-northeast-2.rds.amazonaws.com',
+        'HOST': '',
         'PORT': '3306'
     }
 }
