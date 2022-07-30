@@ -11,7 +11,7 @@ services:
     environment:
       - MYSQL_DATABASE=readvice
       - MYSQL_ROOT_PASSWORD=readvice
-      - MYSQL_ROOT_HOST=readvice.cgskwkqhdjqe.ap-northeast-2.rds.amazonaws.com
+      - MYSQL_ROOT_HOST=
     command: [ '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci' ]
     ports:
       - 3306:3306
